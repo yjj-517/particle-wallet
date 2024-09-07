@@ -1,0 +1,4 @@
+@import "./tailwind/global.css";
+@import "./tailwind/tailwind.css";
+@import "./common/common.css";
+@import "./common/animate.css";

@@ -1,0 +1,10 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_arrow1">
+<mask id="mask0_26_1227" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+<rect id="Rectangle 607" x="0.5" y="0.5" width="13" height="13" fill="currentColor" stroke="currentColor"/>
+</mask>
+<g mask="url(#mask0_26_1227)">
+<path id="Rectangle 606" d="M2.75736 8.75736L7 4.51472L11.2426 8.75736" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

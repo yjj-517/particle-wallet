@@ -1,0 +1,59 @@
+@layer base {
+	:root {
+		/* 字体 */
+		--sm-font-family-1: Oswald, Arial;
+		--sm-font-family-2: Arial;
+		/* theme-color */
+		--sm-color-fg-1: #ffffff;
+		--sm-color-fg-2: #000000;
+		--sm-color-fg-3: #87cd00;
+		--sm-color-fg-4: #00b4cd;
+		--sm-color-fg-5: #ff99ff;
+		/* background-color */
+		--sm-color-bg-1: #060e1b;
+		--sm-color-bg-2: #18182c;
+		--sm-color-bg-3: #0d1442;
+		--sm-color-bg-4: #1f293e;
+		/* text-color */
+		--sm-color-text-1: #cccccc;
+		--sm-color-text-2: #999999;
+		/* height */
+		--sm-header-height: 124px;
+		--sm-footer-height: 276px;
+		/* width */
+		--sm-menu-width: 240px;
+		--sm-menu-width-put: 72px;
+	}
+	/* 滚动条 */
+	.trove-scrollbar {
+		overflow-y: auto;
+		overflow-x: auto;
+		scrollbar-width: thin;
+		scrollbar-color: var(--sm-color-bg-4) var(--sm-color-bg-1);
+	}
+}
+/* 居中盒子 */
+section.main {
+	@apply w-full max-w-[1440px] mx-auto relative px-5 md:px-8 lg:px-12 overflow-hidden;
+}
+/* 居中盒子 no-overflow-hidden */
+section.main-nohidden {
+	@apply w-full max-w-[1440px] mx-auto relative px-5 md:px-8 lg:px-12;
+}
+/* 按钮 */
+/* 主要按钮 */
+button.primary-button {
+	@apply flex justify-center items-center gap-1 rounded-lg font-primary font-medium bg-gradient-to-r from-primary to-secondary hover:from-[#00CD83] hover:to-[#008FCD];
+}
+/* 常规按钮 */
+button.regular-button {
+	@apply flex justify-center items-center gap-1 rounded-lg font-primary font-medium bg-primary shadow-lg hover:shadow-primary/70;
+}
+/* 次要按钮 */
+button.secondary-button {
+	@apply flex justify-center items-center gap-1 rounded-lg font-primary font-medium border border-white hover:border-primary;
+}
+/* 禁用按钮 */
+button.disabled-button {
+	@apply flex justify-center items-center gap-1 rounded-lg font-primary font-medium border border-text-200 text-text-200 hover:cursor-not-allowed;
+}

@@ -1,0 +1,13 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_mint_eth">
+<mask id="mask0_1473_11776" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="160" height="160">
+<rect id="Rectangle 647" width="160" height="160" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1473_11776)">
+<g id="icon_mint_eth_2">
+<path id="Vector" d="M154 80C154 120.87 120.869 154 80 154C39.1313 154 6 120.87 6 80C6 39.1305 39.1313 6 80 6C120.869 6 154 39.1305 154 80Z" fill="#627EEA"/>
+<path id="Vector_2" d="M47.2344 89.1695L78.9745 23.7883V105.877L47.2344 89.1695ZM112.766 89.1695L80.9133 105.877V23.7661L112.766 89.1695ZM47.2344 91.5612L78.9745 107.453V133.009L47.2344 91.5612ZM112.766 91.5612L80.9133 133.009V107.453L112.766 91.5612Z" fill="white"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,13 @@
+#loading-box {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6); /* 半透明的黑色背景 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999; /* 设置 z-index 以确保在页面上层显示 */
+	color: #fff;
+}
