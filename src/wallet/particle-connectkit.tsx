@@ -47,16 +47,16 @@ const config = createConfig({
 			},
 		}),
 	],
+	// chains: [
+	// 	{ ...(mainnet as any), chinaIcon: IconEthereum },
+	// 	{ ...(arbitrum as any), chinaIcon: IconArbitrumOne },
+	// 	{ ...(arbitrumSepolia as any), chinaIcon: IconArbitrumSepolia },
+	// ], //chains
 	chains: [
 		{ ...(mainnet as any), chinaIcon: IconEthereum },
 		{ ...(arbitrum as any), chinaIcon: IconArbitrumOne },
 		{ ...(arbitrumSepolia as any), chinaIcon: IconArbitrumSepolia },
 	], //chains
-	// chains: [
-	// { ...(mainnet as any), chinaIcon: IconEthereum },
-	// { ...(arbitrum as any), chinaIcon: IconArbitrumOne },
-	// { ...(arbitrumSepolia as any), chinaIcon: IconArbitrumSepolia },
-	// ], //chains
 });
 
 // Wrap your application with this component.
